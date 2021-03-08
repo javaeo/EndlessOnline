@@ -44,7 +44,7 @@ public class Encoding {
 
     public static int DecodeNumber(byte[] b) {
         for (int i = 0; i < b.length; ++i) {
-            if (b[i] == 0 || b[i] == (byte) 254)
+            if (b[i] == 0 || Byte.toUnsignedInt(b[i]) == Byte.toUnsignedInt((byte) 254))
                 b[i] = 0;
             else
                 --b[i];
@@ -53,10 +53,10 @@ public class Encoding {
         int a = 0;
 
         for (int i = b.length - 1; i >= 1; --i) {
-            a += b[i] * MAX[i - 1];
+            a += Byte.toUnsignedInt(b[i]) * MAX[i - 1];
         }
 
-        return a + b[0];
+        return a + Byte.toUnsignedInt(b[0]);
     }
 
     //
