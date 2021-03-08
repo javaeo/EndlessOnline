@@ -1,6 +1,8 @@
 # EndlessOnline
 Open Source alternative to the Endless Online client (http://endless-online.com, http://game.eoserv.net) to allow for full customization of assets, code, and remove any hard-coded restrictions the original game client had in place.  Designed to work with EOServ (www.eoserv.net) in it's vanilla state, requiring no coding on the server side (unless of course you want custom features!)
 
+Check branches other than main for more testing code, and to be able to see communication with the server
+
 ## Plans
 First and foremost, packet handling will be the primary objective.  As of 3/07/2020 Packets can be created, read, modified, and will receive correct responses from the server.  Testing has been with auth, login, account/character creation.
 
