@@ -23,7 +23,7 @@ Below is a list of tasks to give myself an idea of where to go to next.  Incompl
 - [x] Reading pub files
 - [x] Writing pub files
 - [ ] Receiving pub file data from server
-- [ ] Reading map files
+- [x] Reading map files
 - [ ] Rendering map files
 - [ ] EOFile Editor (cross-platform "editpub" and "eomap" remakes)
 - [ ] Asset Creation (these will be simple, not intended to be used)
