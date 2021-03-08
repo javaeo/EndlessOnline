@@ -1,0 +1,2 @@
+eo/client/desktop/DesktopLauncher.java
+ eo.client.desktop.DesktopLauncher
