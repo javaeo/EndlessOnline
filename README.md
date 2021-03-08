@@ -12,9 +12,8 @@ Current .EGF files are.. crap to say the least, and can be problematic in my opi
 To start, this will likely only support Windows.  I will be using LibGDX (https://libgdx.com) as the game's framework, thus allowing for ports to Linux, MacOS, Android, iOS and even perhaps browser support.
 
 ## Task list
-Below is a list of tasks to give myself an idea of where to go to next.  Incomplete tasks are roughly an IDEA of what I will be doing next.  I will update the list with progress as I move along.
+Below is a list of tasks to give myself an idea of where to go to next.  Incomplete tasks are roughly an IDEA of what I will be doing next.  I will update the list with progress as I move along.  Once we reach the end of this task list, a new one will be created with areas I need to improve upon, and bugs that need to be fixed.
 
-As this is a learning process, progress can be slow.  I will not begin visal development of the game client
 - [x] Decoding of packets
 - [x] Encoding of packets
 - [x] Reading/Writing packets
@@ -31,7 +30,9 @@ As this is a learning process, progress can be slow.  I will not begin visal dev
 - [ ] Player / Entity Management (basically storing information on Map NPCs, Map Players to be used in rendering)
 - [ ] Player / Entity Rendering
 - [ ] Game Client Development (putting the puzzle together, giving us something to showcase)
-- [ ] Debugging and cleanup
 
 ## Some Footnotes
 Developing this client, for me, is a learning experience.  My code will be messy, my code will have mistakes and things that could be done better.  That's where you, the community, can come in.  Any assistance on this project is greatly appreciated, and highly encouraged.
+
+## Licensing
+Unsure of where to go with this.  You are free to use, modify, redistribute any code within this repo.
