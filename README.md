@@ -37,4 +37,4 @@ Below is a list of tasks to give myself an idea of where to go to next.  Incompl
 Developing this client, for me, is a learning experience.  My code will be messy, my code will have mistakes and things that could be done better.  That's where you, the community, can come in.  Any assistance on this project is greatly appreciated, and highly encouraged.
 
 ## Licensing
-Unsure of where to go with this.  You are free to use, modify, redistribute any code within this repo.
+Unsure of where to go with this.  For now it's under the GNU GPL v3, subject to change if required.
